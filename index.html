@@ -1,204 +1,190 @@
+<!doctype html>
 <html>
 
 <head>
-  <title>WEN Jian Homepage</title>
-  <link rel="stylesheet" type="text/css" href="doc/theme.css">
-  <script async src="./files/analytics.js"></script>
+
+
+  <title>Jian Wen</title>
+
+  <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+  <meta name="keywords" content="Jian Wen, 温键">
+  <meta name="description" content="Jian Wen's home page">
+  <link rel="stylesheet" href="css/jemdoc.css" type="text/css" />
+
+  <script>
+    function showPubs(id) {
+      if (id == 0) {
+        document.getElementById('pubs').innerHTML = document.getElementById('pubs_selected').innerHTML;
+        document.getElementById('select0').style = 'text-decoration:underline;color:#000000';
+        document.getElementById('select1').style = '';
+      } else {
+        document.getElementById('pubs').innerHTML = document.getElementById('pubs_by_topic').innerHTML;
+        document.getElementById('select1').style = 'text-decoration:underline;color:#000000';
+        document.getElementById('select0').style = '';
+      }
+    }
+
+  </script>
+
 </head>
 
-<body>
-  <div id="layout-content" style="margin-top:25px; margin-bottom:25px;">
 
-    <table width="100%" border="0" align="center">
-      <tr>
-        <td width="5%"></td>
-        <td width="60%">
-          <div id="header" style="float:left">
-            <h1>WEN Jian</h1>
-            <p> Doctor of Philosophy </p>
-            <p> Senior Algorithm Engineer <br>
-              Xiaomi EV Company Limited, Beijing, China </p>
-            <p> <em> Email: <a href="mailto:wenjian@mail.nankai.edu.cn"> wenjian@mail.nankai.edu.cn </a> </em> </p>
-            <p> <a href="https://scholar.google.com/citations?user=FUXevBUAAAAJ&hl=zh-CN" target="_blank"><img
-                  src="./pic/gs.png" height="30px" style="margin-bottom:-3px"></a>
-              <a href="https://github.com/nkuwenjian" target="_blank"><img src="./pic/github.jpg" height="30px"
-                  style="margin-bottom:-3px"></a>
+<body>
+
+  <div id="layout-content" style="margin-top:25px">
+
+
+    <table>
+      <tbody>
+        <tr>
+          <td width="75%">
+            <div id="toptitle">
+              <h1>Jian Wen 温键<h1>
+            </div>
+
+            <h3>Senior Algorithm Engineer</h3>
+
+            <p>
+              Xiaomi EV Company Limited </br>
+              Beijing 100085, China </br>
+              </br>
+              Email: nkuwenjian@gmail.com </br>
             </p>
-          </div>
-        </td>
-        <td width="30%">
-          <div id="photo" style="float:right;">
-            <img src="./pic/jwen.png" alt="my photo" style="width:160;height:224;">
-          </div>
-        </td>
-        <td width="5%"></td>
+            <p>
+              <a href="https://scholar.google.com/citations?user=FUXevBUAAAAJ&hl=zh-CN"><img
+                  src="assets/logos/google_logo.png" height="30px"></a>&nbsp;&nbsp;
+              <a href="https://github.com/nkuwenjian"><img src="assets/logos/github_logo.png"
+                  height="30px"></a>&nbsp;&nbsp;
+            </p>
+          </td>
+
+          </td>
+          <td width="25%">
+            <img src="assets/imgs/jwen.jpg" width="75%" />
+          </td>
+        <tr>
+      </tbody>
+    </table>
+
+    <h2>Biography</h2>
+    <p>
+      Jian Wen received the B.S. degree in automation and the Ph.D. degree in control science and engineering from
+      Nankai University, Tianjin, China, in 2017 and 2022, respectively.
+    </p>
+
+    <p>
+      He is currently working as a Senior Algorithm Engineer with the Group of Autonomous Driving, Xiaomi EV Company
+      Limited, Beijing, China. His research interests include behavioral reasoning, decision making, and motion planning
+      for autonomous driving vehicles.
+    </p>
+
+    <h2> Selected Journal Papers</h2>
+    <ul>
+      <li>
+        <p><strong>Jian Wen</strong>, Xuebo Zhang, Qingchen Bi, Hui Liu, Jing Yuan, Yongchun Fang,
+          G<sup>2</sup>VD planner: Efficient motion planning with grid-based generalized Voronoi diagrams,
+          <i><strong>IEEE Transactions on Automation Science and Engineering</strong></i>, accepted, 2024.
+        </p>
+      </li>
+
+      <li>
+        <p><strong>Jian Wen</strong>, Xuebo Zhang, Haiming Gao, Jing Yuan, Yongchun Fang,
+          E<sup>3</sup>MoP: Efficient motion planning based on heuristic-guided motion primitives pruning and
+          path optimization with sparse-banded structure, <i><strong>IEEE Transactions on Automation Science and
+              Engineering</strong></i>, vol. 19, no. 4, pp. 2762-2775, 2022. <a
+            href="https://ieeexplore.ieee.org/document/9627934" target="_self">PDF</a>
+        </p>
+      </li>
+
+      <li>
+        <p><strong>Jian Wen</strong>, Xuebo Zhang, Haiming Gao, Jing Yuan, Yongchun Fang, CAE-RLSM: Consistent and
+          efficient redundant line segment merging for online feature map building, <i><strong> IEEE Transactions on
+              Instrumentation and Measurement</strong></i>, vol. 69, no. 7, pp. 4222-4237, 2020. <a
+            href="https://ieeexplore.ieee.org/document/8882497" target="_self">PDF</a>
+        </p>
+      </li>
+
+      <li>
+        <p>Haiming Gao, Xuebo Zhang, <strong>Jian Wen</strong>, Jing Yuan, Yongchun Fang, Autonomous indoor exploration
+          via graph-based SLAM using directional endpoint features and polygon map construction, <i><strong>IEEE
+              Transactions on Automation Science and Engineering</strong></i>, vol. 16, no. 4, pp. 1531-1542, 2019. <a
+            href="https://ieeexplore.ieee.org/document/8573855" target="_self">PDF</a>
+        </p>
+      </li>
+
+      <li>
+        <p>Qingchen Bi, Xuebo Zhang, <strong>Jian Wen</strong>, Zhangchao Pan, Shiyong Zhang, Runhua Wang, Jing Yuan,
+          CURE: A hierarchical framework for multi-robot autonomous exploration inspired by centroids of unknown
+          regions, <i><strong>IEEE Transactions on Automation Science and Engineering</strong></i>, accepted, 2023. <a
+            href="https://ieeexplore.ieee.org/document/10155622" target="_self">PDF</a>
+        </p>
+      </li>
+    </ul>
+
+
+    <h2>Selected Conference Papers</h2>
+
+    <ul>
+      <li>
+        <p><strong>Jian Wen</strong>, Xuebo Zhang, Qingchen Bi, Zhangchao Pan, Yanghe Feng, Jing Yuan, Yongchun Fang,
+          MRPB 1.0: A unified benchmark for the evaluation of mobile robot local planning approaches, <i> <strong>2021
+              IEEE International Conference on Robotics and Automation</strong></i>, 2021, pp. 8238-8244. <a
+            href="https://ieeexplore.ieee.org/document/9561901" target="_self">PDF</a>
+        </p>
+      </li>
+
+      <li>
+        <p><strong>Jian Wen</strong>, Xuebo Zhang, Haiming Gao, Jing Yuan, Yongchun Fang, A novel 2D laser scan matching
+          algorithm for mobile robots based on hybrid features, <i> <strong>2018 IEEE International Conference on
+              Real-time Computing and Robotics</strong></i>, 2018, pp. 366-371. <a
+            href="https://ieeexplore.ieee.org/document/8621744" target="_self">PDF</a>
+        </p>
+      </li>
+    </ul>
+
+    <h2> Professional Activities</h2>
+    <ul>
+      <li>
+        <p>Reviewer, TASE, TIM, TIV, ICRA, IROS, etc</p>
+      </li>
+    </ul>
+
+
+    <h2> Honors and Awards</h2>
+    <ul>
+      <li>
+        <p>2022, 南开大学2022届研究生优秀毕业生</p>
+      </li>
+      <li>
+        <p>2021, 南开大学2020-2021学年度研究生优秀学生</p>
+      </li>
+      <li>
+        <p>2020, 南开大学2019-2020学年度研究生公能一等奖学金</p>
+      </li>
+      <li>
+        <p>2020, 国防科技创新特区“挑战地下2020”无人协同组网及路径规划科目第一名</p>
+      </li>
+      <li>
+        <p>2019, 中国光谷人工智能大会最佳论文展示奖</p>
+      </li>
+      <li>
+        <p>2018, Best paper finalist, 2018 IEEE RCAR</p>
+      </li>
+      <li>
+        <p>2017, 南开大学计算机与控制工程学院“明善允能”保研奖学金</p>
+      </li>
+    </ul>
+
+
+    <table width="100%">
+      <tr>
+        <td align="center">&copy; Jian Wen | Last update: Mar 2024</td>
       </tr>
     </table>
 
-    <table width="100%" border="0" align="center">
-
-      <tr>
-        <td width="5%"></td>
-        <td width="90%">
-          <hr>
-          <div id="bio" class="contents">
-            <h2>Biography </h2>
-            <p>I received the
-              B.S. degree in automation from
-              Nankai University in June 2017, and the
-              Ph.D. degree in control science and engineering from
-              Nankai University in June 2022, supervised by <a href="https://ai.nankai.edu.cn/info/1033/3984.htm"
-                target="_blank">Prof. Xuebo Zhang</a>. I am currently working as a Senior Algorithm Engineer at Xiaomi
-              EV Company Limited.
-            </p>
-            <p> My research focuses on behavioral reasoning, decision making, and motion planning for autonomous
-              passenger vehicles.
-            </p>
-            <hr>
-          </div>
-        </td>
-        <td width="5%" align="left">
-      </tr>
-      <!-- *******************************************************************************************************************-->
-      <tr>
-        <td width="5%"></td>
-        <td width="90%">
-          <div id="pub" class="contents">
-            <h2> Publications</h2>
-
-            <p> 1. E<sup>3</sup>MoP: Efficient motion planning based on heuristic-guided motion primitives pruning and
-              path
-              optimization with sparse-banded structure
-              [<a href="https://ieeexplore.ieee.org/document/9627934" target="_blank">paper</a>]<br>
-              <b>Jian Wen</b>, Xuebo Zhang, Haiming Gao, Jing Yuan, Yongchun Fang<br>
-              <b><em>IEEE Transactions on Automation Science and Engineering</em></b>, vol. 19, no. 4, pp. 2762-2775,
-              2022.
-            </p>
-
-            <p> 2. CAE-RLSM: Consistent and efficient redundant line segment merging for online feature map building
-              [<a href="https://ieeexplore.ieee.org/document/8882497" target="_blank">paper</a>] [<a
-                href="https://github.com/NKU-MobFly-Robotics/line_segment_mapping" target="_blank">code</a>]<br>
-              <b>Jian Wen</b>, Xuebo Zhang, Haiming Gao, Jing Yuan, Yongchun Fang<br>
-              <b><em>IEEE Transactions on Instrumentation and Measurement</em></b>, vol. 69, no. 7, pp. 4222-4237, 2020.
-            </p>
-
-            <p> 3. MRPB 1.0: A unified benchmark for the evaluation of mobile robot local planning approaches [<a
-                href="https://ieeexplore.ieee.org/document/9561901" target="_blank">paper</a>] [<a
-                href="https://github.com/NKU-MobFly-Robotics/local-planning-benchmark" target="_blank">code</a>]<br>
-              <b>Jian Wen</b>, Xuebo Zhang, Qingchen Bi, Zhangchao Pan, Yanghe Feng, Jing Yuan, Yongchun Fang<br>
-              <b><em>2021 IEEE International Conference on Robotics and Automation (ICRA)</em></b>, 2021, pp. 8238-8244.
-            </p>
-
-            <p> 4. A novel 2D laser scan matching algorithm for mobile robots based on hybrid features [<a
-                href="https://ieeexplore.ieee.org/document/8621744" target="_blank">paper</a>]<br>
-              <b>Jian Wen</b>, Xuebo Zhang, Haiming Gao, Jing Yuan, Yongchun Fang<br>
-              <b><em>2018 IEEE International Conference on Real-time Computing and Robotics (RCAR)</em></b>, 2018, pp.
-              366-371.
-            </p>
-
-            <p> 5. Autonomous indoor exploration via graph-based SLAM using directional endpoint features and polygon
-              map construction [<a href="https://ieeexplore.ieee.org/document/8573855" target="_blank">paper</a>]<br>
-              Haiming Gao, Xuebo Zhang, <b>Jian Wen</b>, Jing Yuan, Yongchun Fang<br>
-              <b><em>IEEE Transactions on Automation Science and Engineering</em></b>, vol. 16, no. 4, pp. 1531-1542,
-              2019.
-            </p>
-
-            <h2> Preprint</h2>
-
-            <p> 1. G<sup>2</sup>VD planner: An efficient motion planning approach with grid-based generalized Voronoi
-              diagrams
-              [<a href="https://arxiv.org/abs/2201.12981" target="_blank">paper</a>]<br>
-              <b>Jian Wen</b>, Xuebo Zhang, Hui Liu, Haoyue Liu, Jing Yuan, Yongchun Fang<br>
-            </p>
-
-            <hr>
-          </div>
-        </td>
-        <td width="5%" align="left">
-      </tr>
-
-      <!-- *******************************************************************************************************************-->
-      <tr>
-        <td width="5%"></td>
-        <td width="90%">
-          <div id="react" class="contents">
-            <h2>Honors &amp; Awards</h2>
-            <ul>
-
-              <li> The best poster award of <em>The First Artificial Intelligence Conference and Entrepreneurs
-                  Summit
-                  Forum of Chinese Optics Valley</em>, Wuhan, China, May. 2019.
-              </li>
-
-              <li> The best paper finalist of <em>2018 IEEE International Conference on Real-time Computing and
-                  Robotics</em>, Kandima, Maldives, Aug. 2018.
-              </li>
-
-              <li> Scholarship of "Gong-Neng" (First Prize), College of Artificial Intelligence, Nankai University,
-                2020.
-              </li>
-
-              <li> Scholarship of "Ming-Shan-Yun-Neng", College of Computer and Control Engineering, Nankai University,
-                2017.
-              </li>
-
-              <li> Scholarship of Postgraduate Freshman, College of Computer and Control Engineering, Nankai University,
-                2017.
-              </li>
-
-            </ul>
-
-            <hr>
-          </div>
-        </td>
-        <td width="5%"></td>
-      </tr>
-
-      <!-- *******************************************************************************************************************-->
-      <tr>
-        <td width="5%"></td>
-        <td width="90%">
-          <div id="react" class="contents">
-            <h2>Professional Activities</h2>
-            <ul>
-              <li>
-                <b>Reviews:</b>
-                <br>
-                IEEE Transactions on Instrumentation and Measurement<br>
-                IEEE Transactions on Automation Science and Engineering<br>
-                International Journal of Intelligent Robotics and Applications<br>
-                IEEE International Conference on Robotics and Automation (ICRA 2021)<br>
-                IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS 2022)<br>
-                <p style="margin-top:3px"></p>
-              </li>
-            </ul>
-            <hr>
-          </div>
-        </td>
-        <td width="5%"></td>
-      </tr>
-      <!-- *******************************************************************************************************************-->
-      <tr>
-        <td width="5%"></td>
-        <td width="90">
-          <div id="footer">
-            <div id="footer-text"></div>
-          </div>
-          <p>
-            <center>
-              <div id="clustrmaps-widget" style="width:10%">
-                <script type="text/javascript" id="clstr_globe"
-                  src="//cdn.clustrmaps.com/globe.js?d=p-504SAd_4-ysNiqWIVsZP1VTdhsByqxMHAY63OWZvo"></script>
-              </div>
-              <br>
-              &copy; WEN Jian | Last updated: February 20, 2023
-
-            </center>
-          </p>
   </div>
-  </td>
-  <td width="5%"></td>
-  </tr>
+
+
 </body>
 
 </html>
