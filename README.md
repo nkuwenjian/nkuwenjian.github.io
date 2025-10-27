@@ -1,2 +1,2 @@
 # nkuwenjian.github.io
-Personal website for WEN Jian
+Personal website.
