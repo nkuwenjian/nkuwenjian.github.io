@@ -12,12 +12,23 @@ body {
 	margin: 0;
 }
 */
+@font-face {
+  font-family: 'BodyFont';
+  src: local('Georgia');
+}
+
+@font-face {
+  font-family: 'BodyFont';
+  src: local('Cambria'), local('Charter'), local('Times New Roman');
+  unicode-range: U+0030-0039, U+002E, U+002C;
+}
+
 html {
   background-color: #eeeeee;
 }
 
 body {
-  font-family: Georgia, Helvetica, Arial, Verdana, san-serif, Times;
+  font-family: 'BodyFont', Georgia, Helvetica, Arial, Verdana, san-serif, Times;
   color: #000;
   background-color: #ffffff;
   text-align:left; /* for IE */
@@ -30,6 +41,9 @@ body {
   padding-top: 10px;
   padding-bottom: 30px;
   max-width: 960px;
+  font-variant-numeric: lining-nums tabular-nums;
+  -webkit-font-feature-settings: "lnum", "tnum";
+  font-feature-settings: "lnum", "tnum";
 }
 
 #layout-menu {
