@@ -18,11 +18,14 @@ body {
   	margin-bottom: 10px;
 	margin-left: auto;
   	margin-right: auto;
-  	padding-left:  50px;
+	padding-left:  50px;
   	padding-right: 50px;
-  	padding-top: 20px;
-  	padding-bottom: 50px;
-  	max-width: 960px;
+	padding-top: 20px;
+	padding-bottom: 50px;
+	max-width: 960px;
+	font-variant-numeric: lining-nums tabular-nums;
+	-webkit-font-feature-settings: "lnum", "tnum";
+	font-feature-settings: "lnum", "tnum";
 }
 
 #layout-menu {

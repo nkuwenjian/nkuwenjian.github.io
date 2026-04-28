@@ -12,12 +12,45 @@ body {
 	margin: 0;
 }
 */
+@font-face {
+  font-family: 'Liberation Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('../assets/fonts/LiberationSans-Regular.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Liberation Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url('../assets/fonts/LiberationSans-Bold.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Liberation Sans';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url('../assets/fonts/LiberationSans-Italic.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Liberation Sans';
+  font-style: italic;
+  font-weight: 700;
+  font-display: swap;
+  src: url('../assets/fonts/LiberationSans-BoldItalic.woff2') format('woff2');
+}
+
 html {
   background-color: #eeeeee;
 }
 
 body {
-  font-family: Georgia, Helvetica, Arial, Verdana, san-serif, Times;
+  font-family: "Liberation Sans", "Arial", sans-serif;
+  font-style: normal;
   color: #000;
   background-color: #ffffff;
   text-align:left; /* for IE */
@@ -30,6 +63,9 @@ body {
   padding-top: 10px;
   padding-bottom: 30px;
   max-width: 960px;
+  font-variant-numeric: lining-nums tabular-nums;
+  -webkit-font-feature-settings: "lnum", "tnum";
+  font-feature-settings: "lnum", "tnum";
 }
 
 #layout-menu {
